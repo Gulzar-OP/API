@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: aquamarine;
+    
+
+    
+}
+.main{
+    /* background-color: antiquewhite; */
+    width: 100vw;
+    height: 100vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: antiquewhite;
+    width: 30vw;
+    height: 60vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+button{
+    margin-bottom: 1px;
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 20vh;
+}
+h1{
+    margin-top: 5px;
+    margin-bottom: 30px;
+    background-color: red;
+}
+#quote{
+    color: black;
+    margin-bottom: 20%;
+    padding: 20px;
+    background-color: blue;
+}
+#author{
+    margin-bottom: 10px;
+    font-weight: 500;
+    background-color: yellow;
+}
