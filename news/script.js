@@ -1,4 +1,4 @@
-const url = "https://newsapi.org/v2/everything?q=tesla&from=2025-04-06&sortBy=publishedAt&apiKey=119d4bff1e9b4f9998c7ac886e0ea610";
+const url = "https://newsapi.org/v2/everything?q=tesla&from=2025-04-07&sortBy=publishedAt&apiKey=119d4bff1e9b4f9998c7ac886e0ea610";
 
 fetch(url)
   .then(response => response.json())
